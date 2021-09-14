@@ -1,0 +1,49 @@
+html
+{
+    background-image: "fundo‐pagina.gif";
+    background-repeat: repeat-x;
+    background-color: #dfdbd3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+#principal
+{
+    width: 750px;
+}
+#conteudo
+{
+    width: 444px;
+    background-color: #fff;
+    float: left;
+    padding: 10px 10px 10px 10px;
+    line-height: 1.5em;
+}
+#menu
+{
+    width: 285px;
+    height: 280px;
+    background-color: #b2ac9f;
+    float: right;
+    background-image: "fundo-menu-bottom.gif";
+    background-repeat: no-repeat;
+    box-shadow: rgb(172, 172, 172) 5px 5px 5px;
+}
+h1
+{
+   width: 260px;
+   background-color: #060;
+   font-size: 18px;
+   color: #fff;
+   margin: 0; 
+}
+ul
+{
+    list-style-type: none;
+    margin-top: 2em;
+}
+li
+{
+    font-size: 18px;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}

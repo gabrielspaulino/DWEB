@@ -1,0 +1,62 @@
+#page
+{
+    border: 5px solid;
+    border-color: rgb(0, 165, 177);
+    padding: 1em;
+}
+body
+{
+    color: rgb(119, 119, 119);
+    margin-right: 880px;
+}
+h1
+{
+    font-size: 30px;
+}
+h2
+{
+    font-size: 30px;
+}
+#navigation
+{
+    color: #3399CC;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a
+{
+    color: #3399CC;
+}
+hr
+{
+    border-color: rgb(255, 255, 255);
+}
+#img1
+{
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 640px;
+    height: 410px;
+    border: 2px solid;
+    border-color: black;
+}
+table
+{ 
+    border-spacing: 10px;
+    border-collapse: separate;
+    border: 1px solid black;
+}
+td, th, tr
+{ 
+    padding: 10px;
+    border: 1px solid black;
+}
+table
+{
+    box-shadow: darkgray 5px 5px 5px;
+}
+em
+{
+    display: inline;
+    visibility: visible;
+    color: lightgreen;
+}

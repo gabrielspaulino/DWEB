@@ -1,0 +1,83 @@
+body
+{
+    font-size:           small;
+    font-family:         Verdana, Helvetica, Arial, sans-serif;
+    line-height:         1.6em;
+  }
+  
+  h1, h2
+  {
+    color:               #007e7e;
+  }
+  
+  h1
+  {
+    font-size:           150%;
+  }
+  
+  h2
+  {
+    font-size:           130%;
+  }
+  
+  #guarantee
+  {
+    line-height:         1.9em;
+    font-style:          italic;
+    font-family:         Georgia, "Times New Roman", Times, serif;
+    color:               #444444;
+    border-color:        white;
+    border-width:        1px;
+    border-style:        dashed;
+    background-color:    #a7cece;
+    padding:             25px;
+    padding-left:        80px;
+    margin:              30px;
+    margin-right:        250px;
+    background-image:    url(background.gif);
+    background-repeat:   no-repeat;
+    background-position: top left;
+    width: 850px;
+  }
+  #elixirs
+  {
+      width: 200px;
+      padding: 0 20px 20px 20px;
+      border: solid;
+      border-width: thin;
+      border-color: #007e7e;
+      margin-left: 20px;
+      text-align: center;
+      float: right;
+      line-height: 1em;
+      background-image: url(cocktail.gif);
+      background-repeat: repeat-x;
+      margin-right: 652px;
+  }
+  #elixirs h2
+  {
+      color: black;
+  }
+  #elixirs h3
+  {
+      color: #d12c47;
+  }
+  #elixirs a
+  {
+      color: black;
+  }
+  #conteudo
+  {
+      float: left;
+      width: 968px
+  }
+  #copyright
+  {
+      text-align: center;
+      font-size: 8px;
+      line-height: 1em;
+  }
+  a
+  {
+      color:#007e7e;
+  }

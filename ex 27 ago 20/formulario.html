@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf8">
+<title>Formulário</title>
+<h1>Formulário completo</h1>
+</head>
+
+<body>
+<form action="recebe-formulario.php" method="post">
+<label for="nome">Nome:</label>
+<input type="text" id="nome" placeholder="Digite o seu nome aqui" required></br>
+<label for="email">Email:</label>
+<input type="email" id="email" placeholder="Seu email" required></br>
+<label for="telefone">Telefone:</label>
+<input type="tel" id="telefone" placeholder="Seu telefone" required></br>
+<label for="site">Seu site:</label>
+<input type="url" id="site" placeholder="Seu site" required></br>
+<label for="nascimento">Nascimento:</label>
+<input type="date" id="nascimento" placeholder="dd/mm/aaaa" required></br>
+<label for="filhos">Quantidade de filhos:</label>
+<input type="number" id="filhos" min="0" max="30" required></br>
+<label for="temp">Temperatura hoje (de -10 até 50):</label>
+<input type="range" id="temp" min="-10" max="50" required></br>
+<label for="hora">Hora local:</label>
+<input type="time" id="hora" placeholder="--:--" required></br>
+<label for="senha">Senha:</label>
+<input type="password" id="senha" placeholder="Sua senha" required></br></br>
+<b>Qual a disciplina que você mais gosta?</b></br>
+<input type="radio" id="lc" name="lc" value="lc">
+<label for="lc">Lógica computacional</label><br>
+<input type="radio" id="dw" name="dw" value="dw">
+<label for="dw">Desenvolvimento web</label></br></br>
+<label for="cor">Cor preferida:</label>
+<input type="color" id="cor" required></br></br>
+<textarea rows="10" cols="80" placeholder="Digite sua mensagem"></textarea></br>
+<input type="checkbox" id="receber" name="receber" value="receber">
+<label for="receber">Deixe a caixa marcada para receber nossos e-mails</label><br>
+<input type="checkbox" id="parceiros" name="parceiros" value="parceiros">
+<label for="parceiros">Deseja receber e-mails de parceiros?</label></br></br>
+<label for="pesquisa">Pesquisa:</label>
+<input type="search" id="pesquisa" name="pesquisa"></br></br>
+<input type="submit" type="Enviar">
+<input type="reset" value="Reiniciar">
+</form>
+</body>
+</html>
